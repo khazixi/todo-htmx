@@ -1,7 +1,9 @@
 {
   "scripts": {
     "start": "tsx src/index.tsx",
-    "dev": "tsx watch src/index.tsx"
+    "dev": "tsx watch src/index.tsx",
+    "generate": "drizzle-kit generate:sqlite",
+    "push": "drizzle-kit push:sqlite"
   },
   "dependencies": {
     "@hono/node-server": "^1.2.0",
